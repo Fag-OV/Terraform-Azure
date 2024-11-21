@@ -1,0 +1,34 @@
+# Diretório de cache e dados locais do Terraform
+.terraform/
+
+# Arquivos de bloqueio do Terraform (podem ser regenerados)
+*.tfstate
+*.tfstate.backup
+
+# Arquivo de plano do Terraform (gerado por `terraform plan`)
+*.tfplan
+
+# Arquivos de variáveis sensíveis
+*.tfvars
+*.tfvars.json
+
+# Logs de execução do Terraform
+crash.log
+
+# Arquivos de saída do provedor ou depuração
+*.tfoutput
+
+# Arquivo gerado pelo Terraform CLI para o bloqueio de provedores
+.terraform.lock.hcl
+
+# Arquivos de saída ou temporários
+*.backup
+*.log
+*.tmp
+*.bak
+
+# Ignorar arquivos específicos do sistema operacional ou editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
